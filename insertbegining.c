@@ -10,17 +10,17 @@ int main() {
     struct Node *head = NULL;
     struct Node *newNode;
 
-    // Create new node
+    
     newNode = (struct Node*)malloc(sizeof(struct Node));
 
     printf("Enter data: ");
     scanf("%d", &newNode->data);
 
-    // Insert at beginning
+   
     newNode->next = head;
     head = newNode;
 
-    // Print linked list
+    
     printf("Linked List: ");
 
     struct Node *temp = head;
